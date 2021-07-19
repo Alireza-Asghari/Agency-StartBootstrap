@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency</title>
+    <!-- LOAD CSS FILES -->
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <link rel="stylesheet" href="./assets/CSS/all.css" />
+  </head>
+  <body>
+    <!-- HTML CODES -->
+    <!-- HEADER -->
+    <header
+      id="home"
+      class="d-flex justify-content-center align-items-center flex-column"
+    >
+      <!-- Desktop mode -->
+      <div
+        class="
+        px-5
+          w-100
+          d-none d-md-flex
+          justify-content-between
+          align-items-center
+          py-3
+          navbar
+        "
+      >
+        <div class="logo">
+          <a href="#home"><h2 id="logo">Start bootstrap</h2></a>
+        </div>
+        <nav class="w-50">
+          <ul class="d-flex justify-content-between align-items-center mb-0">
+            <li><a href="#services" class="navbar-links">SERVICES</a></li>
+            <li><a href="#portfolio" class="navbar-links">PORTFOLIO</a></li>
+            <li><a href="#about" class="navbar-links">ABOUT</a></li>
+            <li><a href="#team" class="navbar-links">TEAM</a></li>
+            <li><a href="#contact" class="navbar-links">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Mobile mode -->
+      <div class="w-100 d-md-none">
+        <nav
+          class="
+            navbar navbar-expand-md navbar-light
+            d-flex
+            justify-content-center
+            navbar-mobile
+          "
+        >
+          <div class="row w-100 justify-content-center align-items-center">
+            <a class="navbar-brand col-9" href="#Home"
+              ><h2 id="logo-mobile">Start bootstrap</h2></a
+            >
+
+            <button
+              class="navbar-toggler col-2 py-2 px-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              MENU
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse w-100 bg-dark p-3"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav">
+                <a class="nav-link text-white" href="#services">SERVICES</a>
+                <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+                <a class="nav-link text-white" href="#about">ABOUT</a>
+                <a class="nav-link text-white" href="#team">TEAM</a>
+                <a class="nav-link text-white" href="#contact">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Titles -->
+      <div id="welcome" class="text-white"><h4>Welcome to our studio!</h4></div>
+      <div id="message-text" class="text-white">
+        <h2>IT'S NICE TO MEET YOU</h2>
+      </div>
+      <div id="tellMeMore" class="mt-5"><button>TELL ME MORE</button></div>
+    </header>
+    <main>
+      <!-- SERVICES -->
+      <section
+        id="services"
+        class="d-flex justify-content-center align-items-center"
+      >
+        <div class="container py-4">
+          <div class="sectionTitle text-center py-5">
+            <h1>SERVICES</h1>
+            <p class="pt-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-md-6 Card col-lg-4 border-0 text-center p-3">
+              <div class="icon mb-4">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <div class="service-name"><h4>E-Commerce</h4></div>
+              <div class="service-details">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus aliquid explicabo perferendis error quisquam
+                  veniam.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 Card col-md-6 col-lg-4 border-0 text-center p-3">
+              <div class="icon mb-4">
+                <i class="fas fa-laptop"></i>
+              </div>
+              <div class="service-name"><h4>Responsive Design</h4></div>
+              <div class="service-details">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus aliquid explicabo perferendis error quisquam
+                  veniam.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-12 Card col-md-12 col-lg-4 border-0 text-center p-3"
+            >
+              <div class="icon mb-4">
+                <i class="fas fa-lock"></i>
+              </div>
+              <div class="service-name"><h4>Web Security</h4></div>
+              <div class="service-details">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus aliquid explicabo perferendis error quisquam
+                  veniam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PORTFOLIO -->
+      <section
+        id="portfolio"
+        class="d-flex justify-content-center align-items-center"
+      >
+        <div class="container py-4">
+          <div class="sectionTitle text-center py-5">
+            <h1>PORTFOLIO</h1>
+            <p class="pt-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- FIRST ROW -->
+          <div class="row gy-4 pb-5">
+            <div class="col-12 col-md card border-0 p-0 text-center mx-2">
+              <div
+                class="portfolio-image mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#Picture1"
+              >
+                <i
+                  class="
+                    fas
+                    fa-plus
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                ></i>
+                <img
+                  src="./assets/images/portfolio/01-thumbnail.jpg"
+                  alt="Pic1"
+                  title="Pic1"
+                  class="w-100"
+                />
+                <!-- Modal -->
+                <!-- Picture 1 -->
+                <div
+                  class="modal fade"
+                  id="Picture1"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-xl modal-fullscreen mx-auto">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <div class="modal-title pb-4">
+                          <h2>Project Name</h2>
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                        </div>
+                        <div class="modalImage pb-2">
+                          <img
+                            src="./assets/images/portfolio/01-full.jpg"
+                            class="img-fluid"
+                          />
+                          <div class="detail pt-4">
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Architecto odit temporibus obcaecati, qui ea
+                              ab distinctio. Rem, quos recusandae perferendis
+                              nobis, laudantium natus velit quo sequi mollitia
+                              maxime corporis ea!
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="date">
+                          <p>Date: January 2021</p>
+                          <p>Client: SouthWest</p>
+                          <p>Category: Website design</p>
+                        </div>
+                        <button
+                          type="button"
+                          class="btn btn-warning text-white"
+                          data-bs-dismiss="modal"
+                        >
+                          Close Project
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-name"><h4>Threads</h4></div>
+              <div class="portfolio-details">
+                <p>illustratin</p>
+              </div>
+            </div>
+            <div class="col-12 card col-md border-0 p-0 text-center mx-2">
+              <div
+                class="portfolio-image mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#Picture2"
+              >
+                <i
+                  class="
+                    fas
+                    fa-plus
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                ></i>
+                <img
+                  src="./assets/images/portfolio/02-thumbnail.jpg"
+                  alt="Pic2"
+                  title="Pic2"
+                  class="w-100 w-100"
+                />
+                <!-- Modal -->
+                <!-- Picture 2 -->
+                <div
+                  class="modal fade"
+                  id="Picture2"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-xl modal-fullscreen mx-auto">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <div class="modal-title pb-4">
+                          <h2>Project Name</h2>
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                        </div>
+                        <div class="modalImage pb-2">
+                          <img
+                            src="./assets/images/portfolio/02-full.jpg"
+                            class="img-fluid"
+                          />
+                          <div class="detail pt-4">
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Architecto odit temporibus obcaecati, qui ea
+                              ab distinctio. Rem, quos recusandae perferendis
+                              nobis, laudantium natus velit quo sequi mollitia
+                              maxime corporis ea!
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="date">
+                          <p>Date: January 2021</p>
+                          <p>Client: SouthWest</p>
+                          <p>Category: Website design</p>
+                        </div>
+                        <button
+                          type="button"
+                          class="btn btn-warning text-white"
+                          data-bs-dismiss="modal"
+                        >
+                          Close Project
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-name"><h4>Explore</h4></div>
+              <div class="portfolio-details">
+                <p>Graphic Design</p>
+              </div>
+            </div>
+            <div class="col-12 card col-md border-0 text-center p-0 mx-2">
+              <div
+                class="portfolio-image mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#Picture3"
+              >
+                <i
+                  class="
+                    fas
+                    fa-plus
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                ></i>
+                <img
+                  src="./assets/images/portfolio/03-thumbnail.jpg"
+                  alt="Pic3"
+                  title="Pic3"
+                  class="w-100"
+                />
+                <!-- Modal -->
+                <!-- Picture 3 -->
+                <div
+                  class="modal fade"
+                  id="Picture3"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-xl modal-fullscreen mx-auto">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <div class="modal-title pb-4">
+                          <h2>Project Name</h2>
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                        </div>
+                        <div class="modalImage pb-2">
+                          <img
+                            src="./assets/images/portfolio/03-full.jpg"
+                            class="img-fluid"
+                          />
+                          <div class="detail pt-4">
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Architecto odit temporibus obcaecati, qui ea
+                              ab distinctio. Rem, quos recusandae perferendis
+                              nobis, laudantium natus velit quo sequi mollitia
+                              maxime corporis ea!
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="date">
+                          <p>Date: January 2021</p>
+                          <p>Client: SouthWest</p>
+                          <p>Category: Website design</p>
+                        </div>
+                        <button
+                          type="button"
+                          class="btn btn-warning text-white"
+                          data-bs-dismiss="modal"
+                        >
+                          Close Project
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-name"><h4>Finish</h4></div>
+              <div class="portfolio-details">
+                <p>Identity</p>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-4 pb-5">
+            <div class="col-12 col-md card border-0 p-0 text-center mx-2">
+              <div
+                class="portfolio-image mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#Picture4"
+              >
+                <i
+                  class="
+                    fas
+                    fa-plus
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                ></i>
+                <img
+                  src="./assets/images/portfolio/04-thumbnail.jpg"
+                  alt="Pic4"
+                  title="Pic4"
+                  class="w-100"
+                />
+                <!-- Modal -->
+                <!-- Picture 2 -->
+                <div
+                  class="modal fade"
+                  id="Picture4"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-xl modal-fullscreen mx-auto">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <div class="modal-title pb-4">
+                          <h2>Project Name</h2>
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                        </div>
+                        <div class="modalImage pb-2">
+                          <img
+                            src="./assets/images/portfolio/04-full.jpg"
+                            class="img-fluid"
+                          />
+                          <div class="detail pt-4">
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Architecto odit temporibus obcaecati, qui ea
+                              ab distinctio. Rem, quos recusandae perferendis
+                              nobis, laudantium natus velit quo sequi mollitia
+                              maxime corporis ea!
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="date">
+                          <p>Date: January 2021</p>
+                          <p>Client: SouthWest</p>
+                          <p>Category: Website design</p>
+                        </div>
+                        <button
+                          type="button"
+                          class="btn btn-warning text-white"
+                          data-bs-dismiss="modal"
+                        >
+                          Close Project
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-name"><h4>Lines</h4></div>
+              <div class="portfolio-details">
+                <p>Branding</p>
+              </div>
+            </div>
+            <div class="col-12 card col-md border-0 p-0 text-center mx-2">
+              <div
+                class="portfolio-image mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#Picture5"
+              >
+                <i
+                  class="
+                    fas
+                    fa-plus
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                ></i>
+                <img
+                  src="./assets/images/portfolio/05-thumbnail.jpg"
+                  alt="Pic5"
+                  title="Pic5"
+                  class="w-100"
+                />
+                <!-- Modal -->
+                <!-- Picture 2 -->
+                <div
+                  class="modal fade"
+                  id="Picture5"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-xl modal-fullscreen mx-auto">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <div class="modal-title pb-4">
+                          <h2>Project Name</h2>
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                        </div>
+                        <div class="modalImage pb-2">
+                          <img
+                            src="./assets/images/portfolio/05-full.jpg"
+                            class="img-fluid"
+                          />
+                          <div class="detail pt-4">
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Architecto odit temporibus obcaecati, qui ea
+                              ab distinctio. Rem, quos recusandae perferendis
+                              nobis, laudantium natus velit quo sequi mollitia
+                              maxime corporis ea!
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="date">
+                          <p>Date: January 2021</p>
+                          <p>Client: SouthWest</p>
+                          <p>Category: Website design</p>
+                        </div>
+                        <button
+                          type="button"
+                          class="btn btn-warning text-white"
+                          data-bs-dismiss="modal"
+                        >
+                          Close Project
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-name"><h4>Sout west</h4></div>
+              <div class="portfolio-details">
+                <p>Website Designer</p>
+              </div>
+            </div>
+            <div class="col-12 card col-md border-0 text-center p-0 mx-2">
+              <div
+                class="portfolio-image mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#Picture6"
+              >
+                <i
+                  class="
+                    fas
+                    fa-plus
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                ></i>
+                <img
+                  src="./assets/images/portfolio/06-thumbnail.jpg"
+                  alt="Pic6"
+                  title="Pic6"
+                  class="w-100"
+                />
+                <!-- Modal -->
+                <!-- Picture 6 -->
+                <div
+                  class="modal fade"
+                  id="Picture6"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-xl modal-fullscreen mx-auto">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <div class="modal-title pb-4">
+                          <h2>Project Name</h2>
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                        </div>
+                        <div class="modalImage pb-2">
+                          <img
+                            src="./assets/images/portfolio/06-full.jpg"
+                            class="img-fluid"
+                          />
+                          <div class="detail pt-4">
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Architecto odit temporibus obcaecati, qui ea
+                              ab distinctio. Rem, quos recusandae perferendis
+                              nobis, laudantium natus velit quo sequi mollitia
+                              maxime corporis ea!
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="date">
+                          <p>Date: January 2021</p>
+                          <p>Client: SouthWest</p>
+                          <p>Category: Website design</p>
+                        </div>
+                        <button
+                          type="button"
+                          class="btn btn-warning text-white"
+                          data-bs-dismiss="modal"
+                        >
+                          Close Project
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-name"><h4>Window</h4></div>
+              <div class="portfolio-details">
+                <p>Photography</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section
+        id="about"
+        class="d-flex justify-content-center align-items-center py-5"
+      >
+        <div class="container py-5">
+          <div class="text-center pb-5">
+            <div class="sectionTitle">
+            <h1 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted">
+              Lorem ipsum dolor sit amet consectetur.
+            </h3>
+          </div>
+          </div>
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img
+                  class="rounded-circle img-fluid"
+                  src="./assets/images/about/1.jpg"
+                />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2009-2011</h4>
+                  <h4 class="subheading">Our Humble Beginnings</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis
+                    temporibus qui quibusdam, recusandae sit vero unde, sed,
+                    incidunt et ea quo dolore laudantium consectetur!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img
+                  class="rounded-circle img-fluid"
+                  src="./assets/images/about/2.jpg"
+                />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>March 2011</h4>
+                  <h4 class="subheading">An Agency is Born</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis
+                    temporibus qui quibusdam, recusandae sit vero unde, sed,
+                    incidunt et ea quo dolore laudantium consectetur!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img
+                  class="rounded-circle img-fluid"
+                  src="./assets/images/about/3.jpg"
+                  alt="..."
+                />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>December 2015</h4>
+                  <h4 class="subheading">Transition to Full Service</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis
+                    temporibus qui quibusdam, recusandae sit vero unde, sed,
+                    incidunt et ea quo dolore laudantium consectetur!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img
+                  class="rounded-circle img-fluid"
+                  src="./assets/images/about/4.jpg"
+                  alt="..."
+                />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>July 2020</h4>
+                  <h4 class="subheading">Phase Two Expansion</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis
+                    temporibus qui quibusdam, recusandae sit vero unde, sed,
+                    incidunt et ea quo dolore laudantium consectetur!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>
+                  Be Part
+                  <br />
+                  Of Our
+                  <br />
+                  Story!
+                </h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- TEAM -->
+      <section id="team">
+        <div class="container py-5">
+          <div class="sectionTitle text-center pt-5">
+            <h1>Our Amazing Team</h1>
+            <p class="text-muted pt-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="row pb-5 g-5">
+            <div class="col-12 col-sm-12 col-md team-card text-center">
+              <div class="avatar w-75 mx-auto">
+                <img src="./assets/images/team/1.jpg" class="img-fluid" />
+              </div>
+              <div class="personName my-2"><h3>Alireza Asghari</h3></div>
+              <div class="personDuty mb-4">
+                <h5 class="text-muted">Front-end developer</h5>
+              </div>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+            <div class="col-12 col-sm-12 col-md team-card text-center">
+              <div class="avatar w-75 mx-auto">
+                <img src="./assets/images/team/2.jpg" class="img-fluid" />
+              </div>
+              <div class="personName my-2"><h3>Alireza Asghari</h3></div>
+              <div class="personDuty mb-4">
+                <h5 class="text-muted">Front-end developer</h5>
+              </div>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+            <div class="col-12 col-sm-12 col-md team-card text-center">
+              <div class="avatar w-75 mx-auto">
+                <img src="./assets/images/team/3.jpg" class="img-fluid" />
+              </div>
+              <div class="personName my-2"><h3>Alireza Asghari</h3></div>
+              <div class="personDuty mb-4">
+                <h5 class="text-muted">Front-end developer</h5>
+              </div>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-dark btn-social mx-2" href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+                eaque, laboriosam veritatis, quos non quis ad perspiciatis,
+                totam corporis ea, alias ut unde.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CLIENTS -->
+      <section id="clients" class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#"
+                ><img
+                  class="img-fluid"
+                  src="./assets/images/logos/creative-market.jpg"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#"
+                ><img
+                  class="img-fluid"
+                  src="./assets/images/logos/designmodo.jpg"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#"
+                ><img
+                  class="img-fluid"
+                  src="./assets/images/logos/envato.jpg"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#"
+                ><img
+                  class="img-fluid"
+                  src="./assets/images/logos/themeforest.jpg"
+                  alt="..."
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT -->
+      <section id="contact" class="py-5 bg-dark">
+        <div class="container">
+          <div class="text-center">
+            <div class="sectionTitle">
+            <h1 class="text-uppercase text-white">Contact Us</h1>
+            <h3 class="text-muted">
+              Lorem ipsum dolor sit amet consectetur.
+            </h3>
+          </div>
+          </div>
+          <form id="contactForm">
+            <div class="row align-items-stretch mb-5">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    id="name"
+                    type="text"
+                    placeholder="Your Name *"
+                    required="required"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    id="email"
+                    type="email"
+                    placeholder="Your Email *"
+                    required="required"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group mb-md-0">
+                  <input
+                    class="form-control"
+                    id="phone"
+                    type="tel"
+                    placeholder="Your Phone *"
+                    required="required"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6 h-100">
+                <div class="form-group form-group-textarea mb-md-0">
+                  <textarea
+                    class="form-control textarea"
+                    id="message"
+                    placeholder="Your Message *"
+                    required="required"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button
+                class="button text-uppercase"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer id="footer" class="py-4 text-center">
+        <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-4 text-lg-start">
+                  Copyright &copy; Your Website 2021
+              </div>
+              <div class="col-lg-4 my-3 my-lg-0">
+                  <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="col-lg-4 text-lg-end">
+                  <a class="link-dark text-decoration-none me-3" href="#">Privacy Policy</a>
+                  <a class="link-dark text-decoration-none" href="#">Terms of Use</a>
+              </div>
+          </div>
+      </div>
+      </footer>
+    </main>
+    <!-- LOAD JS FILES -->
+    <script src="./assets/JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
